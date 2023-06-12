@@ -11,7 +11,8 @@ py game.py
 ```sh
 git clone
 cd app
-Si estas en windows usar env\Scripts\activate.bat si estas en mac usar source env/bin/activate
+crea tu entorno virtual con python3 -m venv env
+si estas en windows usar desde cmd env\Scripts\activate.bat si estas en mac usar source env/bin/activate
 pip3 install -r requirements.txt
 py game.py
 ```
